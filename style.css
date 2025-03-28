@@ -1,0 +1,61 @@
+/* CSS BY NAME Violet Kaufman */
+
+/* IMPORTED FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kavoon&display=swap');
+
+/* CSS RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ROOT VARIABLES */
+:root {
+    --color-teal: #4CA7C0;
+    --color-purple: #484FB7;
+    --color-lavender: #6B8FE7;
+    --color-yellow: #E9BB57;
+    --color-pink: #D9526F;
+    --color-dark-gray: #1E1E1E; 
+    --color-white: #ffffff;
+
+
+    --font-heading: 'Kavoon' , cursive;
+    --font-body: 'Inter' , sans-serif;
+
+}
+
+/* GLOBAL STYLES (mobile first/small) */
+
+body{
+    font-family: var(--font-body);
+    padding: 1rem;
+    line-height: 1.6;
+    background-color: white;
+    color: #333;
+}
+
+h1, h2 {
+    font-family: var(--font-heading);
+}
+
+h1{
+    font-size: 3em;
+}
+
+h2{
+    font-size: 2em;
+}
+
+h3{
+    font-size: 1.5em;
+}
+
+h4{
+    font-size: 1.15em;
+}
+
+nav h2{
+    font-size:1.5em
+}
