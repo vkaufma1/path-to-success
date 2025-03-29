@@ -30,32 +30,46 @@
 
 body{
     font-family: var(--font-body);
+    background-color: var(--color-purple);
     padding: 1rem;
     line-height: 1.6;
-    background-color: white;
-    color: #333;
+    color: var(--color-dark-gray);
 }
 
 h1, h2 {
     font-family: var(--font-heading);
+    color:var(--color-white);
 }
 
 h1{
     font-size: 3em;
+    text-align: center;
 }
 
 h2{
     font-size: 2em;
+    margin-top: 2rem;
 }
 
 h3{
     font-size: 1.5em;
+    color: var(--color-white);
 }
 
 h4{
     font-size: 1.15em;
+    color: var(--color-teal);
 }
 
-nav h2{
-    font-size:1.5em
+/* HEADER */
+header{
+    background-color: var(--color-purple);
+    text-align: center;
+    padding: 2rem 1rem;
 }
+
+header p{
+    color: var(--color-white);
+    margin-top: 0.5rem;
+}
+
