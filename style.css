@@ -234,3 +234,15 @@ footer a{
     background-color: var(--color-yellow);
     color: var(--color-white);
 }
+
+.white{
+    background-color: var(--color-white);
+    color: var(--color-white);
+}
+
+.pink-bg{
+    background-color: var(--color-pink);
+    padding: 2rem 1rem;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+}
