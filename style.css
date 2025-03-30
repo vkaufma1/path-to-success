@@ -43,6 +43,10 @@ html, body {
     height: 100%;
 }
 
+main{
+    flex: 1;
+}
+
 .container{
     max-width: 450px;
     margin: 0 auto;
@@ -162,8 +166,6 @@ img{
 }
 
 #why-choose-us li{
-    background-color: var(--color-white);
-    color: var(--color-dark-gray);
     padding: 0.75rem;
     flex: 1 1 45%;
     text-align: center;
