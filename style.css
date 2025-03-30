@@ -222,22 +222,22 @@ footer a{
 
 .teal{
     background-color: var(--color-teal);
-    color: var(--color-white);
+    color: var(--color-dark-gray);
 }
 
 .lavender{
     background-color: var(--color-lavender);
-    color: var(--color-white);
+    color: var(--color-dark-gray);
 }
 
 .yellow{
     background-color: var(--color-yellow);
-    color: var(--color-white);
+    color: var(--color-dark-gray);
 }
 
 .white{
     background-color: var(--color-white);
-    color: var(--color-white);
+    color: var(--color-dark-gray);
 }
 
 .pink-bg{
