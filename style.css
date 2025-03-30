@@ -93,13 +93,14 @@ nav li{
 nav a{
     background-color: var(--color-yellow);
     border: 2px solid var(--color-white);
-    display: block;
+    display: inline-block;
     text-align: center;
-    padding: 1rem;
+    padding: 0.5rem 1rem;
     font-weight: bold;
     color: var(--color-dark-gray);
     text-decoration: none;
-    border-radius: 6px;
+    border-radius: 4px;
+    margin: 0.5rem;
 }
 
 nav a:hover{
@@ -114,6 +115,11 @@ nav a:hover{
     margin: 1.25rem 0;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0 , 0, 0.1);
+}
+
+section{
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
 }
 
 
