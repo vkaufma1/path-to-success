@@ -38,6 +38,11 @@ body{
     justify-content: center;
 }
 
+.container{
+    max-width: 450px;
+    margin: 0 auto;
+}
+
 h1, h2 {
     font-family: var(--font-heading);
     color:var(--color-white);
@@ -208,4 +213,17 @@ footer a{
     text-decoration: underline;
 }
 
+.teal{
+    background-color: var(--color-teal);
+    color: var(--color-white);
+}
 
+.lavender{
+    background-color: var(--color-lavender);
+    color: var(--color-white);
+}
+
+.yellow{
+    background-color: var(--color-yellow);
+    color: var(--color-white);
+}
