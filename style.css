@@ -35,7 +35,12 @@ body{
     line-height: 1.6;
     color: var(--color-dark-gray);
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+html, body {
+    height: 100%;
 }
 
 .container{
